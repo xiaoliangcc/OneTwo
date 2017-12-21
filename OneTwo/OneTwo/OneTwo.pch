@@ -1,0 +1,27 @@
+//
+//  OneTwo.pch
+//  OneTwo
+//
+//  Created by zhangxiaoliang on 2017/12/6.
+//  Copyright © 2017年 zhangxiaoliang. All rights reserved.
+//
+
+#ifndef OneTwo_pch
+#define OneTwo_pch
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "XLPhotoManagerDefine.h"
+
+
+#endif
+
+
+#endif /* OneTwo_pch */
