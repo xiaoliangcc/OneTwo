@@ -12,9 +12,6 @@
 		A02B50D41FD7C22D0030BED5 /* 20161212163518.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A02B50D31FD7C22D0030BED5 /* 20161212163518.jpg */; };
 		A02B50DC1FD7D42A0030BED5 /* 20161212163519.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A02B50DB1FD7D42A0030BED5 /* 20161212163519.jpg */; };
 		A02B50DE1FD7DB2A0030BED5 /* Snip20171206_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A02B50DD1FD7DB2A0030BED5 /* Snip20171206_1.jpg */; };
-		A05AABFD1FE0C5D5004BE459 /* XLalbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A05AABFC1FE0C5D5004BE459 /* XLalbumModel.m */; };
-		A05AAC001FE0C682004BE459 /* XLAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A05AABFF1FE0C682004BE459 /* XLAssetModel.m */; };
-		A05AAC031FE0C829004BE459 /* XLAssetBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A05AAC021FE0C829004BE459 /* XLAssetBaseModel.m */; };
 		A089FFED1FDA6F21008C2DA6 /* 20130820232246_wFTHr.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A089FFEC1FDA6F20008C2DA6 /* 20130820232246_wFTHr.jpeg */; };
 		A09D78DF1FF241660016E86A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09D78DE1FF241650016E86A /* opencv2.framework */; };
 		A0BDF7B21FD64F0E00F85FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BDF7B11FD64F0E00F85FCB /* AppDelegate.m */; };
@@ -54,12 +51,6 @@
 		A02B50D31FD7C22D0030BED5 /* 20161212163518.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20161212163518.jpg; sourceTree = "<group>"; };
 		A02B50DB1FD7D42A0030BED5 /* 20161212163519.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20161212163519.jpg; sourceTree = "<group>"; };
 		A02B50DD1FD7DB2A0030BED5 /* Snip20171206_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snip20171206_1.jpg; sourceTree = "<group>"; };
-		A05AABFB1FE0C5D5004BE459 /* XLalbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLalbumModel.h; sourceTree = "<group>"; };
-		A05AABFC1FE0C5D5004BE459 /* XLalbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLalbumModel.m; sourceTree = "<group>"; };
-		A05AABFE1FE0C682004BE459 /* XLAssetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAssetModel.h; sourceTree = "<group>"; };
-		A05AABFF1FE0C682004BE459 /* XLAssetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAssetModel.m; sourceTree = "<group>"; };
-		A05AAC011FE0C829004BE459 /* XLAssetBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAssetBaseModel.h; sourceTree = "<group>"; };
-		A05AAC021FE0C829004BE459 /* XLAssetBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAssetBaseModel.m; sourceTree = "<group>"; };
 		A089FFEC1FDA6F20008C2DA6 /* 20130820232246_wFTHr.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20130820232246_wFTHr.jpeg; sourceTree = "<group>"; };
 		A09D78DE1FF241650016E86A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		A0BDF7AD1FD64F0E00F85FCB /* OneTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,12 +142,6 @@
 				A00C36DD1FDFC67200F97DFC /* XLPhotoManagerDefine.h */,
 				A00C36DA1FDFC50900F97DFC /* XLPhotoManager.h */,
 				A00C36DB1FDFC50900F97DFC /* XLPhotoManager.m */,
-				A05AABFB1FE0C5D5004BE459 /* XLalbumModel.h */,
-				A05AABFC1FE0C5D5004BE459 /* XLalbumModel.m */,
-				A05AABFE1FE0C682004BE459 /* XLAssetModel.h */,
-				A05AABFF1FE0C682004BE459 /* XLAssetModel.m */,
-				A05AAC011FE0C829004BE459 /* XLAssetBaseModel.h */,
-				A05AAC021FE0C829004BE459 /* XLAssetBaseModel.m */,
 				A0BDF7B61FD64F0E00F85FCB /* Main.storyboard */,
 				A0BDF7B91FD64F0E00F85FCB /* Assets.xcassets */,
 				A0BDF7BB1FD64F0E00F85FCB /* LaunchScreen.storyboard */,
@@ -328,10 +313,7 @@
 				A0BDF7B51FD64F0E00F85FCB /* ViewController.mm in Sources */,
 				A0BDF7C01FD64F0E00F85FCB /* main.m in Sources */,
 				A0BDF7B21FD64F0E00F85FCB /* AppDelegate.m in Sources */,
-				A05AABFD1FE0C5D5004BE459 /* XLalbumModel.m in Sources */,
-				A05AAC031FE0C829004BE459 /* XLAssetBaseModel.m in Sources */,
 				A00C36DC1FDFC50900F97DFC /* XLPhotoManager.m in Sources */,
-				A05AAC001FE0C682004BE459 /* XLAssetModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,8 @@
 #define kImageName @"20161212163518.png"
 
 #import "ViewController.h"
+#import <Photos/Photos.h>
+
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *showImageView;
@@ -460,9 +462,14 @@
 #pragma mark - btn
 
 - (IBAction)openImageBtnClick:(UIButton *)sender {
+    
+    
+    
+    
 }
 
 - (IBAction)midOneClick:(UIButton *)sender {
+    
 }
 - (IBAction)midTwoClick:(UIButton *)sender {
 }
