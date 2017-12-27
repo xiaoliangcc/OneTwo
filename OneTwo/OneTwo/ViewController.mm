@@ -57,6 +57,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //[self stupUI];
+    
+    
+    
     //蒙版抠图
     self.originalImageView.image = [UIImage imageNamed:kImageName];
     // Do any additional setup after loading the view, typically from a nib.
@@ -151,9 +156,6 @@
     cvReleaseImage(&src1);
     cvReleaseImage(&des);
 }
-
-
-
 #pragma mark - 图像截取 - 获取子图像
 - (void)test4
 {
@@ -453,4 +455,26 @@
     
     return cvMat;
 }
+
+
+#pragma mark - btn
+
+- (IBAction)openImageBtnClick:(UIButton *)sender {
+}
+
+- (IBAction)midOneClick:(UIButton *)sender {
+}
+- (IBAction)midTwoClick:(UIButton *)sender {
+}
+
+- (IBAction)midThreeClick:(UIButton *)sender {
+}
+
+
+- (IBAction)settingBtnClick:(UIButton *)sender {
+}
+
+- (IBAction)saveBtnClick:(UIButton *)sender {
+}
+
 @end
